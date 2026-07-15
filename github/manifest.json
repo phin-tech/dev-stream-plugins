@@ -1,0 +1,25 @@
+{
+	"slug": "github",
+	"label": "GitHub",
+	"entry": "mod.ts",
+	"defaultIntervalMs": 60000,
+	"configFields": [
+		{
+			"key": "token",
+			"label": "Personal access token",
+			"secret": true,
+			"placeholder": "ghp_…",
+			"help": "Needs the notifications and repo scopes."
+		},
+		{
+			"key": "repos",
+			"label": "Repos (optional)",
+			"placeholder": "owner/name, owner/other",
+			"help": "Comma-separated. Leave empty to follow every notification."
+		}
+	],
+	"permissions": {
+		"net": ["api.github.com"],
+		"net_from_config": ["api_base"]
+	}
+}

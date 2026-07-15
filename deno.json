@@ -1,0 +1,9 @@
+{
+	"tasks": {
+		"check": "deno check github/mod.ts linear/mod.ts",
+		"test": "deno test --allow-read --allow-net"
+	},
+	"imports": {
+		"@std/assert": "jsr:@std/assert@^1.0.15"
+	}
+}

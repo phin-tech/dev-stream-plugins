@@ -1,0 +1,25 @@
+{
+	"slug": "linear",
+	"label": "Linear",
+	"entry": "mod.ts",
+	"defaultIntervalMs": 120000,
+	"configFields": [
+		{
+			"key": "api_key",
+			"label": "API key",
+			"secret": true,
+			"placeholder": "lin_api_…",
+			"help": "Linear → Settings → API → Personal API keys."
+		},
+		{
+			"key": "teams",
+			"label": "Teams (optional)",
+			"placeholder": "ENG, DES",
+			"help": "Comma-separated team keys. Leave empty to follow every team."
+		}
+	],
+	"permissions": {
+		"net": ["api.linear.app"],
+		"net_from_config": ["api_base"]
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"schema_version": 1,
+	"plugins": [
+		{
+			"slug": "github",
+			"label": "GitHub",
+			"description": "GitHub notifications, pull requests, review requests, issues, and checks.",
+			"version": "1.0.0",
+			"min_app_version": "0.1.0",
+			"source": {
+				"owner": "phin-tech",
+				"repo": "dev-stream-plugins",
+				"ref": "f67db70e5611e1a1fd6d9507c167fa99cec81c98",
+				"path": "github"
+			},
+			"manifest_sha256": "595eaebde486b38f58129e01ef628a1d6c29d23382d8bdb687b8226f8455e970"
+		},
+		{
+			"slug": "linear",
+			"label": "Linear",
+			"description": "Linear issue updates with team filtering, workflow state, and assignee context.",
+			"version": "1.0.0",
+			"min_app_version": "0.1.0",
+			"source": {
+				"owner": "phin-tech",
+				"repo": "dev-stream-plugins",
+				"ref": "f67db70e5611e1a1fd6d9507c167fa99cec81c98",
+				"path": "linear"
+			},
+			"manifest_sha256": "2558251e51f188f319bfd09268ed859412e968dd11033d608b52e986cfada73a"
+		}
+	]
+}
